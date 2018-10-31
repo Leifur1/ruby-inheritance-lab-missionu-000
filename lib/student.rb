@@ -4,5 +4,6 @@ class Student < User
 
   def learn
     knowledge < Teacher.KNOWLEDGE
+  end
 
 end
