@@ -3,7 +3,7 @@ class Student < User
   knowledge = []
 
   def learn
-    knowledge < Teacher.KNOWLEDGE
+    knowledge < Teacher.new
   end
 
 end
