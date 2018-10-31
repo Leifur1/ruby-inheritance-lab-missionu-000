@@ -8,4 +8,8 @@ class Student < User
     knowledge < Teacher.new
   end
 
+  def knowledge
+    @knowledge
+  end
+
 end
